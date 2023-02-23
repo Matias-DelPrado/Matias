@@ -1,0 +1,136 @@
+*{ margin: 0;
+padding: 0;}
+
+@media screen and (max-width:768px){
+    body{
+        flex-direction: column;
+    }
+
+    .izquierda{
+        display: none;
+    }
+}
+
+
+
+body{
+    height: 100vh;
+    width: 80vw;
+}
+
+header{
+    
+    width: 100vw;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nombre-agencia{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    height: 180px;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.logo1{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+a{
+    margin: 20px;
+}
+
+.barra{
+    display:flex;
+    margin:50px;
+    justify-content: space-between;
+
+
+}
+.izquierda{
+    text-align: center;
+    color: white;
+    background-color:black;
+    width: 200px;
+    height: 1000px;
+    border-top: 30px;
+    padding-top: 200px;
+}
+
+.derecha { 
+    width: 100vw;
+    height: 1000px;
+    color: white;
+    background-color: black;
+} 
+
+
+.corolla{
+    height: 100vh;
+    width: 80vw;
+}
+
+
+
+.pie{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 150px;
+    align-items: center;
+    justify-content:space-between;
+    
+
+}
+
+footer{
+
+}
+.div_logos{
+    display: flex;
+    height: 150px;
+    width: 150px;
+
+}
+
+.logos{
+    width: 150px;
+    height: 150px;
+}
+.container_div{
+    display: flex;
+}
+
+
+
+
+.derecha{
+    text-align: center;
+    display: inline-block;
+}
+
+
+   /*barra2*/
+
+   .barra2{
+    background-color: aqua;
+   }
